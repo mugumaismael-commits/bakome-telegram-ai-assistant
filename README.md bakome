@@ -1,0 +1,45 @@
+# bakome-telegram-ai-assistant
+Termux-based Telegram bot with memory, basic scam detection, and an extensible structure for future AI features, created by Bakome
+# 🤖 Bakome Telegram AI Assistant
+
+A lightweight Telegram bot built for Termux (Android) with memory system and basic security detection.
+
+Created by **Bakome (Fabrice Kitoko Bakome)**.
+
+## 🚀 Features
+- Telegram chat bot (real-time messages)
+- SQLite memory system (stores user messages)
+- Basic scam / suspicious message detection
+- Fully compatible with Termux (Android)
+- Ready for future AI upgrades
+
+## 📦 Installation
+pkg update && pkg upgrade -y  
+pkg install python -y  
+pkg install git -y  
+pip install python-telegram-bot requests  
+
+## ⚙️ Setup
+Replace in bot.py:  
+TOKEN = "TON_BOT_TOKEN_ICI"
+
+## ▶️ Run
+python bot.py
+
+## 🧠 How it works
+- Stores messages in SQLite database  
+- Detects suspicious keywords like: bitcoin gratuit, urgent, hack, send money  
+- Sends warning when detected  
+
+## 🔐 Security Note
+This bot is for educational purposes only. It does NOT hack, spy, or access user devices.
+
+## 🌍 Future upgrades
+- 50+ language support  
+- AI ChatGPT integration  
+- Trading & crypto signals  
+- Advanced cybersecurity detection  
+- Live news & APIs  
+
+## 👨‍💻 Author
+Bakome (Fabrice Kitoko Bakome)
